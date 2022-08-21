@@ -11,17 +11,14 @@ class Solution:
         curr = root
         if not root:
             return res
-        
+
         while nodes or curr:
             while curr:
                 nodes.append(curr)
                 curr = curr.left
-            
+
             curr = nodes.pop()
             res.append(curr.val)
             curr = curr.right
-        
-        return res
-        
-        
 
+        return res

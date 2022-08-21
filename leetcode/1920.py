@@ -4,7 +4,5 @@ class Solution:
         res = [0] * l
         for i in range(l):
             res[i] = nums[nums[i]]
-        
-        return res
-        
 
+        return res

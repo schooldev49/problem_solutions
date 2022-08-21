@@ -1,2 +1,2 @@
 # problem_solutions
-Problemset solutions from leetcode, e-olymp and CSES
+Problemset solutions from leetcode, e-olymp, codingame and CSES

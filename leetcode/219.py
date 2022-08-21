@@ -5,6 +5,5 @@ class Solution:
             if val in d and i - d[val] <= k:
                 return True
             d[val] = i
-        
-        return False
 
+        return False

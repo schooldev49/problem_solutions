@@ -5,16 +5,19 @@
 #         self.left = None
 #         self.right = None
 
+
 class Solution:
-    def getTargetCopy(self, original: TreeNode, cloned: TreeNode, target: TreeNode) -> TreeNode:
+    def getTargetCopy(
+        self, original: TreeNode, cloned: TreeNode, target: TreeNode
+    ) -> TreeNode:
         stack = [cloned]
         while stack:
             node = stack.pop()
-            if not node:continue
+            if not node:
+                continue
             if node.val == target.val:
                 return node
             stack.append(node.left)
             stack.append(node.right)
-        
-        return -1
 
+        return -1

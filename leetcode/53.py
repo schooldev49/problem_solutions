@@ -5,4 +5,3 @@ class Solution:
             current = max(current + nums[i], nums[i])
             res = max(current, res)
         return res
-

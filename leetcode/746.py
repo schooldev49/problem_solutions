@@ -5,5 +5,4 @@ class Solution:
         for i in range(2, len(cost)):
             c = cost[i] + min(a, b)
             a, b = b, c
-        return min(a,b)
-
+        return min(a, b)

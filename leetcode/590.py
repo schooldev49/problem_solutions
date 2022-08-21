@@ -6,8 +6,9 @@ class Node:
         self.children = children
 """
 
+
 class Solution:
-    def postorder(self, root: 'Node') -> List[int]:
+    def postorder(self, root: "Node") -> List[int]:
         res = []
         stack = [root]
         while stack:
@@ -15,7 +16,5 @@ class Solution:
             if node:
                 res.append(node.val)
                 stack.extend(node.children)
-        
-        return res[::-1]
-        
 
+        return res[::-1]

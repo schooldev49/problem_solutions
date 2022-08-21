@@ -3,4 +3,3 @@ class Solution:
         while original in nums:
             original *= 2
         return original
-

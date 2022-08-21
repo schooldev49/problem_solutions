@@ -12,4 +12,3 @@ class Solution:
             else:
                 head = head.next
         return hhead
-

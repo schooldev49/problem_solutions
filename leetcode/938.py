@@ -12,6 +12,6 @@ class Solution:
             yield from self.sum_bst(node.left, low, high)
             yield from self.sum_bst(node.right, low, high)
         return 0
+
     def rangeSumBST(self, root: Optional[TreeNode], low: int, high: int) -> int:
         return sum(self.sum_bst(root, low, high))
-

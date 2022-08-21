@@ -1,5 +1,3 @@
 class Solution:
     def checkString(self, s: str) -> bool:
-        return ''.join(sorted(s)) == s
-        
-
+        return "".join(sorted(s)) == s

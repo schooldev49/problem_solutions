@@ -7,4 +7,3 @@ class Solution:
         num = ((num & 0x0000FFFF) << 16) | ((num & 0xFFFF0000) >> 16)
 
         return num
-

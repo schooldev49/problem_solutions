@@ -11,5 +11,3 @@ class Solution:
                     break
 
         return r
-            
-

@@ -1,8 +1,8 @@
 class Solution:
     def repeatedCharacter(self, s: str) -> str:
-        a = ''
+        a = ""
         for i in s:
-            if i in a:return i
+            if i in a:
+                return i
             a += i
         return i
-

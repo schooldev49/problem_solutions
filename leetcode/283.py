@@ -5,4 +5,3 @@ class Solution:
             if nums[i]:
                 nums[r], nums[i] = nums[i], nums[r]
                 r += 1
-

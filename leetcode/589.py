@@ -1,5 +1,5 @@
-class Solution:        
-    def preorder(self, root: 'Node') -> List[int]:
+class Solution:
+    def preorder(self, root: "Node") -> List[int]:
         res = []
         stack = [root]
         while stack:
@@ -7,6 +7,5 @@ class Solution:
             if node:
                 res.append(node.val)
                 stack.extend(reversed(node.children))
-        
-        return res
 
+        return res

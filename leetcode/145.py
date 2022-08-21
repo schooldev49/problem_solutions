@@ -14,6 +14,5 @@ class Solution:
                 res.append(node.val)
                 stack.append(node.left)
                 stack.append(node.right)
-        
-        return res[::-1]
 
+        return res[::-1]

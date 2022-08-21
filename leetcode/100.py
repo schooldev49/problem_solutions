@@ -12,9 +12,9 @@ class Solution:
             return False
         if node1.val != node2.val:
             return False
-        return self.check(node1.left, node2.left) and self.check(node1.right, node2.right)
-        
-    
+        return self.check(node1.left, node2.left) and self.check(
+            node1.right, node2.right
+        )
+
     def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
         return self.check(p, q)
-

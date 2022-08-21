@@ -11,9 +11,7 @@ class Solution:
                     else:
                         enum[i] = right.pop()
             return enum
+
         smaller = [0] * len(nums)
         sort(list(enumerate(nums)))
         return smaller
-        
-        
-

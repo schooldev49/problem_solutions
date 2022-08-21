@@ -7,6 +7,6 @@ class Solution:
                 c = min(num_people * n + i + 1, candies)
                 res[i] += c
                 candies -= c
-                if candies <= 0: return res
+                if candies <= 0:
+                    return res
             n += 1
-

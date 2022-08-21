@@ -10,4 +10,3 @@ class Solution:
             nodes.append(head.val)
             head = head.next
         return nodes == nodes[::-1]
-
