@@ -1,5 +1,5 @@
 class Solution:
-    def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
+    def maxAreaOfIsland(self, grid: list[list[int]]) -> int:
         w, h = len(grid[0]), len(grid)
         res = 0
         for y, i in enumerate(grid):

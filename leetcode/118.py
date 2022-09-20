@@ -1,5 +1,5 @@
 class Solution:
-    def generate(self, n: int) -> List[List[int]]:
+    def generate(self, n: int) -> list[list[int]]:
         l = [[1]]
         for i in range(1, n):
             l.append(

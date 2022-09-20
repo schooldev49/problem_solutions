@@ -1,5 +1,5 @@
 class Solution:
-    def minimumCost(self, cost: List[int]) -> int:
+    def minimumCost(self, cost: list[int]) -> int:
         heapq._heapify_max(cost)
         res = 0
         for i in range(1, len(cost) + 1):

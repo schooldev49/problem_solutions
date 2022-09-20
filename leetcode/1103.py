@@ -1,5 +1,5 @@
 class Solution:
-    def distributeCandies(self, candies: int, num_people: int) -> List[int]:
+    def distributeCandies(self, candies: int, num_people: int) -> list[int]:
         res = [0] * num_people
         n = 0
         while True:

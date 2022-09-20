@@ -1,5 +1,5 @@
 class Solution:
-    def furthestBuilding(self, heights: List[int], bricks: int, ladders: int) -> int:
+    def furthestBuilding(self, heights: list[int], bricks: int, ladders: int) -> int:
         n, climbed = len(heights), []
 
         for i in range(n - 1):

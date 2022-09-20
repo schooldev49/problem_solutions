@@ -1,5 +1,5 @@
 class Solution:
-    def numberOfPairs(self, nums: List[int]) -> List[int]:
+    def numberOfPairs(self, nums: list[int]) -> list[int]:
         d = collections.Counter(nums)
         a = b = 0
         for i in d.values():

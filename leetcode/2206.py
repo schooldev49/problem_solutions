@@ -1,5 +1,5 @@
 class Solution:
-    def divideArray(self, nums: List[int]) -> bool:
+    def divideArray(self, nums: list[int]) -> bool:
         nums.sort()
         s, e = 0, 2
         l = len(nums)

@@ -1,5 +1,5 @@
 class Solution:
-    def bestHand(self, ranks: List[int], suits: List[str]) -> str:
+    def bestHand(self, ranks: list[int], suits: list[str]) -> str:
         if len(set(suits)) == 1:
             return "Flush"
         a = collections.Counter(ranks).most_common(1)[0][1]

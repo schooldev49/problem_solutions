@@ -1,6 +1,6 @@
 class Solution:
-    def generateParenthesis(self, n: int) -> List[str]:
-        def solve(p: str, left: int, right: int, res: List[str] = []) -> List[str]:
+    def generateParenthesis(self, n: int) -> list[str]:
+        def solve(p: str, left: int, right: int, res: list[str] = []) -> list[str]:
             if left:
                 solve(p + "(", left - 1, right)
             if right > left:

@@ -1,5 +1,5 @@
 class Solution:
-    def findContentChildren(self, g: List[int], s: List[int]) -> int:
+    def findContentChildren(self, g: list[int], s: list[int]) -> int:
         r = 0
         heapq.heapify(s)
         heapq.heapify(g)

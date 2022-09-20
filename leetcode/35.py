@@ -1,5 +1,5 @@
 class Solution:
-    def searchRange(self, nums: List[int], t: int) -> List[int]:
+    def searchRange(self, nums: list[int], t: int) -> list[int]:
         return (
             [nums.index(t), len(nums) - 1 - nums[::-1].index(t)]
             if t in nums

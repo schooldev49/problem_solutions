@@ -1,5 +1,5 @@
 class Solution:
-    def sortEvenOdd(self, nums: List[int]) -> List[int]:
+    def sortEvenOdd(self, nums: list[int]) -> list[int]:
         a, b = sorted(nums[::2]), sorted(nums[1::2])[::-1]
         c = []
         t = 0

@@ -1,5 +1,5 @@
 class Solution:
-    def numIslands(self, grid: List[List[str]]) -> int:
+    def numIslands(self, grid: list[list[str]]) -> int:
         w, h = len(grid[0]), len(grid)
         visited = [[0] * w for _ in range(h)]
         rivers = 0

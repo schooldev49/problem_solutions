@@ -1,5 +1,5 @@
 class Solution:
-    def countSmaller(self, nums: List[int]) -> List[int]:
+    def countSmaller(self, nums: list[int]) -> list[int]:
         def sort(enum):
             half = len(enum) // 2
             if half:

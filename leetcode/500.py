@@ -1,5 +1,5 @@
 class Solution:
-    def findWords(self, words: List[str]) -> List[str]:
+    def findWords(self, words: list[str]) -> list[str]:
         l = ["qwertyuiop", "asdfghjkl", "zxcvbnm"]
         t = []
         for word in words:
