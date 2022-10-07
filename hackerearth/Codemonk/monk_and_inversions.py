@@ -1,11 +1,9 @@
-test = int(input())
-while test != 0:
+for i in range(int(input())):
     n = int(input())
-
-
-    m=[]
+    m = []
     for i in range(n):
         m.append(list(map(int, input().split())))
+    
     count = 0
 
     for i in range(n):
@@ -16,4 +14,3 @@ while test != 0:
                         count +=1
             
     print(count)
-    test = test - 1
