@@ -1,12 +1,4 @@
 import math
 for i in range(int(input())):
-    s = 0
     a,b = map(int, input().split())
-    for j in range(a, b + 1):
-        res = 0
-        for i in hex(j)[2:]:
-            res += int(i, 16)
-        
-        if math.gcd(res, j) > 1:
-            s += 1
-    print(s)
+    print(sum(math.gcd(sum(map(lambda x:int(x, 16), f'{f:x}')),f) > 1 for f in range(a, b + 1)))
