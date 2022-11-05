@@ -8,7 +8,6 @@ class Solution {
             }
             if (i>0) ya.add(1);
             answer.add(ya);
-
         }
         return answer;
     }
